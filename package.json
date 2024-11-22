@@ -4,7 +4,7 @@
   "description": "Backend server for a customized course review quiz.",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "start": "node index.js"
   },
   "author": "Ecologist_Doc",
   "license": "MIT",
