@@ -3,8 +3,9 @@ NodeJS backend server for generating question-answer combinations using a custom
 
 With that in mind, this backend server is really just a middleperson in the process, and effectively accepts and responds to POST requests from a frontend server, ultimately generating output based on system instructions the developer includes in their Assistant's dashboard system instructions prompt. In other words, this server could be easily adapted for other purposes, depending on user needs. I include setup instructions below to replicate the system instructions I provided to create my multiple choice questions and their answers. 
 
-**Initial setup**
-1: Create your OpenAI API account here - [https://openai.com/api/](https://openai.com/api/). This process should involve creation of an Organization, and potentially a project to start. Please be aware of API use charges and how they vary per model. 
+#**Initial setup**
+
+1. Create your OpenAI API account here - [https://openai.com/api/](https://openai.com/api/). This process should involve creation of an Organization, and potentially a project to start. Please be aware of API use charges and how they vary per model. 
 2. Navigate to your Dashboard, then the Assistants section.
 3. Next to your organization name at the top-left of the window, create a new Project (if you have not done so already). Then click **Create Assistant**.
 4. The right-hand section provides prompts for you to give your assistant a name, set instructions, enable file search (and upload files), and several other options. 
