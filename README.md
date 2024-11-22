@@ -21,7 +21,7 @@ Generate 10 multiple-choice trivia questions and their answers, from the attache
   ...
 ]
 ```
-5. Set other options as desired; note that different models have different costs per use! Because I used file search, I uploaded course materials (so far, the API does well with PDFs as well as other document types). 
+5. Set other options as desired; note that different models have different costs per use! Because I used file search, I uploaded course materials (so far, the API does well with PDFs as well as other document types). Note that if you upload new files, and/or delete existing file stores, the content used by the Assistant to generate the questions and answers will also change (I take advantage of this by uploading new material each week as we progress through the course to keep questions on-topic). 
 6. Get the required `.env` keys: The `ASST_ID` (Assistant ID) should be displayed above the Name prompt for your Assistant. To obtain an API use key for the `OPENAI_API_KEY` variable, select **API Keys** on the left-hand menu, and click **Create new secret key**. 
 7. That's it for this page (for now; you may want to tweak settings depending on your specific use case). 
 8. Install and run:
