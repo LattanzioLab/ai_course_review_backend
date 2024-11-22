@@ -11,7 +11,7 @@ With that in mind, this backend server is really just a middleperson in the proc
 4. The right-hand section provides prompts for you to give your assistant a name, set instructions, enable file search (and upload files), and several other options. 
 5. In the system instructions, in my use case, I include the following guidance to ensure the thread output includes, for each question, the question, an array of answer options, and the answer itself:
 ```
-Generate 10 multiple-choice trivia questions and their answers, from the attached files. Do not use the internet or external knowledge; only draw from the files.   Each question should include four options (A, B, C, D) and clearly indicate the correct answer. Format the output as a JSON array like this:
+You generate multiple-choice trivia questions and their answers, from the attached files. Do not use the internet or external knowledge; only draw from the files.   Each question should include four options (A, B, C, D) and clearly indicate the correct answer. Format the output as a JSON array like this:
 [
   {
     "Question": "<question>",
